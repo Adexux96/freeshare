@@ -107,14 +107,14 @@ function App() {
   `;
 
   const firebaseConfig = {
-    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-    databaseURL: process.env.REACT_APP_DATABASE_URL,
-    projectId: process.env.REACT_APP_PROJECT_ID,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-    appId: process.env.REACT_APP_FIREBASE_APP_ID,
-    measurementId: process.env.REACT_APP_MEASUREMENT_ID,
+    apiKey: "AIzaSyBkz_rvd9LTYJlOAaK89Xzij1bj7s4lNgI",
+    authDomain: "freeshare-30463.firebaseapp.com",
+    databaseURL: "https://freeshare-30463-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "freeshare-30463",
+    storageBucket: "freeshare-30463.firebasestorage.app",
+    messagingSenderId: "642650386983",
+    appId: "1:642650386983:web:c8d2b9e4ef03c98af79402",
+    measurementId: "G-YT5M4MNSHS"
   };
 
   const app = initializeApp(firebaseConfig);
